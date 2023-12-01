@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <button>click</button>
+
+
+
+    <script>
+
+        //alert(3)
+        //console.log(Math.pow(2, 5));
+        //Math.pow(2, 5)
+        //a = 5
+        // console.log(a)
+        //  a = 10
+        // function fn(x,y,z) {
+        //    console.log(x + y + z)
+
+        // }
+        //  fn(5)
+        //  function fn(rub = 0, $ = 0) {
+        //    console.log(rub / $)
+
+        // }
+        //fn(10000, 92)
+        //  let a = 3
+
+        //  function fn() {
+        //     let a = 104;
+        //      console.log(a);
+
+        // }
+        // fn()
+        //   const fn = function () {
+        //      console.log(a);
+        //   }
+        //  fn()
+        ///--------------------------------------
+        /// map(" Привет ,мир");
+        /// function map(world) {
+        ///     alert(world);
+        ///}
+
+
+        ///java("java,script");
+
+        ///function java(code) {
+        ///    console.log(code);
+        /// }
+        ///let value = prompt('введите константу')
+        ///function fn(value) {
+        /// if (value < 10) {
+        ///    console.log("константа меньше 10");
+        /// } else {
+        ///    console.log("константа не меньше 10");
+        /// }
+        ///}
+        ///fn(value)
+
+
+        /// let text = 'Lorem'
+        ///  function content(text) {
+        /// if (' ipsum dolor, sit amet consectetur adipisicing elit. Maiores soluta eius sapiente ' == text) {
+        ///     console.log('у вас ошибка в тексте');
+        ///  }
+        ///  else {
+        ///     console.log('Содержимое переменной:', 'ipsum dolor, sit amet consectetur adipisicing elit. Maiores soluta eius sapiente ')
+        ///  }
+        /// }
+        ///content(text)
+        /// i = 0
+        ///  while (i < 33) {
+        ///      console.log('цикл', i, '%');
+        ///      i++;
+        ///  }
+        //  i = 30
+        //   while (i > 0) {
+        //       console.log('цикл', i,);
+        //      i--;
+        //   }
+        //   let i = 0
+        //    do {
+        //      console.log('цикл', i);
+        //       i++;
+        // } while (i < 3)
+        for (let i = 0; i < 11; i++) {
+            console.log('цикл', i);
+        }
+        //for  % 2 !== 0) continue;
+        // console.log('цикл', i);
+        //  for (let i = 0; i < 10; i++) {
+        //     for (let j = 0; j < 10; j++) {
+        //         console.log('цикл2', j, 'цикл1', j);
+        //
+        //  }
+
+        // }
+        //--------------------------------
+        let comapny = {
+            name: 'Expo',
+            stuff: 30,
+            address: {
+                street: 'Putina',
+                namber: 216,
+                phone: '8(903)909-99-99'
+            },
+            study: function () {
+                console.log(`${this.address.street} ${this.address.namber}`)
+            },
+            owner: 'Magomed',
+        }
+        // comapny.cars = 'tesla'
+        // comapny.stuff += 10
+        // comapny.name = 'expovision'
+        //delete comapny.owner
+        // console.log(comapny.study());
+        let man = {
+            имя: 'Abdurahman',
+            фамилия: 'Atgeriev',
+            логин: 'Afrikanec',
+            пароль: 929292,
+            возраст: '17age',
+            dollars: 100000000000,
+            address: {
+                адрес: 'afrika'
+            },
+            location: function () {
+                console.log(`${this.address.адрес}`)
+
+
+            }
+        }
+        console.log(man.location())
+        let введеный_пароль = 929292
+        if (введеный_пароль === man.пароль) {
+            console.log(
+                `Добро пожаловать,${man.имя},${man.фамилия},ваш логин ,${man.логин}`)
+        } else { console.log(`Указанный пароль , ${введеный_пароль},не верный. Попробуйте еще раз`) }
+
+
+
+    </script>
+</body>
+
+</html>
